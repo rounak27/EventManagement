@@ -65,11 +65,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Event Management System by Rounak Rajbhandari
+
 ## Setup Instructions
 
 To set up the Event Management App locally, follow these steps:
 
-1. **Clone the Repository**: `git clone https://github.com/your-username/event-management-app.git`
+1. **Clone the Repository**: `git clone https://rounak27@bitbucket.org/event-management-rounak/eventmanagementapp.git`
 2. **Install Dependencies**: `composer install` (for PHP dependencies) and `npm install` (for frontend dependencies)
 3. **Environment Configuration**: Create a `.env` file based on `.env.example` and configure database settings.
 4. **Database Migration**: Run `php artisan migrate` to create the necessary database tables.
