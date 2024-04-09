@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller
 {
-    //
     public function index(Request $request)
 {
     $user = Auth::user();
@@ -31,10 +30,9 @@ class EventController extends Controller
         case 'within_7_days':
             $eventsQuery->whereBetween('start_date', [now(), now()->addDays(7)]);
             break;
-        // Handle 'all' case by not applying any additional filters
         case 'all':
         default:
-            // No additional filtering needed
+            
             break;
     }
 

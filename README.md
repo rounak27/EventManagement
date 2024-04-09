@@ -67,6 +67,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Event Management System by Rounak Rajbhandari
 
+
+
 ## Setup Instructions
 
 To set up the Event Management App locally, follow these steps:
